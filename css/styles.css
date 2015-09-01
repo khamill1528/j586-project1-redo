@@ -269,6 +269,15 @@ margin-top: 3.2em;
 
 .left-ad{
   margin-top:5.5px;
+  width: 100%;
+}
+
+.middle-ad{
+  width: 100%;
+}
+
+.right-ad{
+  width: 100%;
 }
 
 .footer-1-text-block{
