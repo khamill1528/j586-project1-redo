@@ -1,0 +1,282 @@
+.row {
+}
+
+.row-navigation {
+padding-left: 5em;
+
+}
+
+.miniheader {
+  background-image: url("images/mini/miniheader.png");
+  height: 25px;
+}
+
+.row-dashboard {
+  border-radius: 5px;
+  background-color: #33cc66;
+  padding: 5px;
+  height: 5em;
+  margin-bottom: 3em;
+
+}
+
+.dashboard-text{
+  color: #FFF;
+  font-size: 2.5em;
+  font-style: myriad pro;
+}
+
+.navbar{
+  position: absolute;
+  right:1em;
+}
+
+.row-announcements{
+  background: blue;
+  height: 2em;
+}
+
+.side-titles{
+  font-size: 2.5em;
+  font-family: myriad pro; sans-serif;
+  color: #3399ff
+  margin-bottom: .5em;
+  margin-top:.5em;
+}
+
+.tasks-main-text{
+  font size: 2em;
+  font family: myriad pro; sans-serif;
+  color:#3399ff;
+  margin-left: 2.5em;
+}
+
+.tasks-human-icon-text{
+  float: right;
+  display: inline;
+  position: absolute;
+  font-size: .7em;
+  padding-top:.2em;
+  padding-left:2em;
+}
+
+a:link{
+  color: #cccccc;
+}
+
+a:visited{
+  color:#cccccc;
+}
+
+a:hover{
+  color: #cccccc;
+}
+
+
+.human-icon {
+float: right;
+display: inline;
+left: 246px;
+bottom: 2.2em;
+border: solid 1px;
+}
+
+.numbercircle{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  float: left;
+
+  background: #33cc66;
+  border: 2px solid #33cc66;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5em;
+
+  font: 18px myriad pro, sans-serif;
+}
+
+.recommendations{
+  font-family: myriad pro; sans-serif;
+  color: #3399ff
+}
+
+.recommendations-icon{
+  align: right;
+  float: left;
+  display: inline-block;
+  bottom: 50px
+}
+
+.recommendations-text{
+  display:inline-block;
+}
+
+.recommendations-main-text{
+  font-size: 1em;
+  color:#666666;
+  margin-top:.3em;
+  margin-left:3em;
+  line-height: 90%;
+}
+
+.recommendations-subtext{
+  font-size: .5em;
+  margin-top: .2em;
+  margin-bottom: -.7em;
+  margin-left:6em;
+  color: #999999
+}
+
+.analytics-main-header{
+  color: #3399ff;
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.analytics-contact-box{
+  background-color:#3399ff;
+  height: 50px;
+  width: 208px;
+  margin-top: 40px;
+  margin-right:0px;
+  margin-bottom:-3px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.analytics-checkbox{
+  text-align: center;
+  display: inline-block;
+}
+
+.analytics-ribbon-left{
+position: absolute;
+display:inline-block;
+margin-bottom: 15em;
+margin-left: 3.4em;
+margin-top: 3.2em;
+}
+
+.analytics-ribbon-right{
+  position: absolute;
+  display:inline-block;
+}
+
+.green-graph{
+  border:solid 1px;
+  margin-left: 7px;
+}
+
+.pie-graph-headers{
+  text-align: left;
+  line-height:70%;
+  margin-top:1em;
+  color: #999999
+}
+
+.analytics-customer-image{
+  position: absolute;
+  left: 80px;
+  bottom: 131px;
+  display: inline-block;
+
+}
+
+.analytics-contact-image{
+  position: absolute;
+  left: 80px;
+  bottom: 128px;
+  display: inline-block;
+}
+
+.contact-text{
+  color:#FFF;
+  font-size:1.5em;
+  text-align:center;
+  font-style: myriad pro;
+}
+
+
+.contact-subtext{
+  color: #FFF;
+  font-size: 0.8em;
+  line-height: 0;
+  padding-top:0px;
+  text-align: center;
+  font-style: myriad pro;
+}
+
+
+.customer-text{
+  color:#FFF;
+  font-size:1.5em;
+  text-align:center;
+  font-style: myriad pro;
+}
+
+.customer-subtext{
+  color: #FFF;
+  font-size: 0.8em;
+  line-height: 0;
+  text-align: center;
+}
+
+.analytics-customer-box{
+  background-color:#3399ff;
+  height: 50px;
+  width: 208px;
+  margin-top: 40px;
+  margin-right:0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.left-arrow{
+  margin-right:5em;
+  padding-right: 10em;
+  position:absolute;
+  left: 2em;
+  padding-left: 5px;
+  margin-left: -2.35em;
+  bottom: 2em;
+}
+
+.right-arrow{
+  position: absolute;
+  padding-left: 588px;
+  bottom: 25px;
+
+}
+
+.info-box{
+  margin-top:1.3em;
+  position:relative;
+  min-height: 140px;
+  min-width: 560px;
+  border-radius: 5px solid;
+  background-color: #3399ff;
+
+}
+
+.ad-box{
+  align: center;
+  margin-top:1.8em;
+  background-color: #3399ff;
+  position:relative;
+}
+
+.left-ad{
+  margin-top:5.5px;
+}
+
+.footer-1-text-block{
+  text-align: center;
+  display: block;
+
+}
+
+.body{
+  font-family: Myriad Pro;
+}
