@@ -242,7 +242,7 @@ padding: 5px;
   width: 208px;
   margin-top: 40px;
   margin-right:0px;
-  margin-bottom:-3px;
+  margin-bottom:-.2em;
   margin-left: 0px;
   position: relative;
 }
@@ -279,7 +279,7 @@ margin-top: 3.2em;
 
 .orange-graph{
   margin-left: .45em;
-  bottom: 1em;
+  margin-top: -3em;
 }
 
 .row-contacts{
