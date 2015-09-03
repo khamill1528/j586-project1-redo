@@ -1,14 +1,70 @@
-.row {
-}
 
 .row-navigation {
 padding-left: 5em;
+background-image: url("../images/content/navigation-bar.png");
+background-repeat: repeat-x;
+min-height: 140px;
+margin-bottom: -1em;
+}
+
+
+.navigation-icons{
+  margin-top: 1.2em;
+  margin-left: 16em;
+}
+
+.mini-header {
+  background-image: url("../images/mini/miniheader.png");
+  background-repeat: repeat-x;
+  min-height: 45px;
 
 }
 
-.miniheader {
-  background-image: url("images/mini/miniheader.png");
-  height: 25px;
+.mini-of-raleigh{
+  color: #FFF;
+  float: right;
+  font-weight: 600;
+  margin-top:7px;
+  margin-right: 2em;
+}
+
+.topmenu-icon-question{
+  float:right;
+}
+
+.topmenu-icon-setting{
+  float:right;
+}
+
+.row-announcements{
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: #cccccc;
+
+}
+
+.announcements-text{
+  color: #ff6600;
+  font-weight: 600;
+  text align: center;
+  padding-left: 7px;
+  border-right: solid 2px;
+  border-color: #cccccc;
+  padding-top:.8em;
+
+}
+
+.announcement-text-area{
+  color: #cccccc;
+  padding-top:.5px;
+}
+
+.announcements-button-left{
+  width:22%;
+  margin-button:3px;
+  border-left: solid 2px;
+  border-color:#cccccc;
+
 }
 
 .row-dashboard {
@@ -26,59 +82,95 @@ padding-left: 5em;
   font-style: myriad pro;
 }
 
-.navbar{
-  position: absolute;
-  right:1em;
+.searchbar{
+  left: 25em;
+  height:36px;
+  width:60%;
+  float:right;
+  background-color: #FFF;
+  border: solid 1px #CCC;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-top:5px;
+
 }
 
-.row-announcements{
-  background: blue;
-  height: 2em;
+.btn-default{
+  background-color: #FFF;
+  border-color: #CCC;
+  border-top-color: #CCC;
+  border-right-color: #CCC;
+  border-bottom-color: #CCC;
+  border-left-color: #CCC;
+  }
+
+  .btn{
+    display:inline-block;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+
+  }
+
+.announcements-line{
+  float: right;
+  vertical-align:middle;
 }
+
 
 .side-titles{
   font-size: 2.5em;
   font-family: myriad pro; sans-serif;
-  color: #3399ff
+  color: #3399ff;
   margin-bottom: .5em;
   margin-top:.5em;
 }
 
 .tasks-main-text{
-  font size: 2em;
-  font family: myriad pro; sans-serif;
+  font-size: 1.5em;
   color:#3399ff;
-  margin-left: 2.5em;
+  margin-left: 10px;
+  margin-bottom: 0px !important;
+}
+
+.tasks-settings-icon{
+  float:right;
+  display: inline-block;
 }
 
 .tasks-human-icon-text{
   float: right;
-  display: inline;
+/*  display: inline;
   position: absolute;
-  font-size: .7em;
   padding-top:.2em;
-  padding-left:2em;
+  padding-left:24em; */
+  font-size: .7em;
 }
 
 a:link{
   color: #cccccc;
+  text-decoration: none;
 }
 
 a:visited{
   color:#cccccc;
+  text-decoration: none;
 }
 
 a:hover{
   color: #cccccc;
+  text-decoration: none;
 }
 
 
 .human-icon {
 float: right;
 display: inline;
-left: 246px;
+/*margin-right:87px;*/
 bottom: 2.2em;
 border: solid 1px;
+padding: 5px;
 }
 
 .numbercircle{
@@ -100,6 +192,7 @@ border: solid 1px;
   font-family: myriad pro; sans-serif;
   color: #3399ff
 }
+
 
 .recommendations-icon{
   align: right;
@@ -128,10 +221,19 @@ border: solid 1px;
   color: #999999
 }
 
+#analytics-dropdown{
+  float: right;
+
+}
+
 .analytics-main-header{
   color: #3399ff;
   font-size: 2.5em;
-  text-align: left;
+  padding-right:
+}
+
+.analytics-activity{
+  color:#999999;
 }
 
 .analytics-contact-box{
@@ -161,11 +263,35 @@ margin-top: 3.2em;
 .analytics-ribbon-right{
   position: absolute;
   display:inline-block;
+  top:3.23em;
+  left: 15.9em;
+}
+
+.analytics-ribbon-left-customer{
+
+
 }
 
 .green-graph{
   border:solid 1px;
-  margin-left: 7px;
+  margin-left: .45em;
+}
+
+.orange-graph{
+  margin-left: .45em;
+  bottom: 1em;
+}
+
+.row-contacts{
+  margin-top:4em;
+}
+
+.analytics-social-media{
+  margin-right: 10em;
+}
+
+.analytics-main-graph{
+
 }
 
 .pie-graph-headers{
@@ -180,6 +306,7 @@ margin-top: 3.2em;
   left: 80px;
   bottom: 131px;
   display: inline-block;
+  bottom: 167px;
 
 }
 
@@ -231,6 +358,7 @@ margin-top: 3.2em;
   margin-bottom: 0px;
   margin-left: 0px;
   position: relative;
+  bottom:2.8em;
 }
 
 .left-arrow{
@@ -245,7 +373,7 @@ margin-top: 3.2em;
 
 .right-arrow{
   position: absolute;
-  padding-left: 588px;
+  right:0;
   bottom: 25px;
 
 }
@@ -263,8 +391,54 @@ margin-top: 3.2em;
 .ad-box{
   align: center;
   margin-top:1.8em;
+  margin-bottom: 3em;
   background-color: #3399ff;
   position:relative;
+}
+
+.footer-1-text-left{
+  padding-right: 17px;
+
+}
+.footer-1-text-middle{
+  border-right: solid 1px;
+  border-left: solid 1px;
+  padding-left: 24px;
+  padding-right: 21px;
+}
+
+.footer-1-text-right{
+  padding-left: 17px;
+}
+
+.footer-2-text{
+  float:left;
+  border-left: solid 1px;
+  padding-left: 1em;
+  padding-right: 10px;
+}
+
+.footer-car-image{
+
+}
+
+
+.footer-3-text{
+  font-weight: 800;
+  color: #3399ff;
+
+}
+
+
+.footer-text-bold{
+  font-weight: 800;
+  color: #3399ff;
+}
+
+
+
+.footer-arrow{
+  padding-bottom:
 }
 
 .left-ad{
@@ -280,12 +454,31 @@ margin-top: 3.2em;
   width: 100%;
 }
 
-.footer-1-text-block{
-  text-align: center;
-  display: block;
-
+.footer-1-text{
+  display: inline;
 }
 
-.body{
+.footer-2-text-block{
+  display: inline;
+}
+
+.footer-3-text{
+  display: inline;
+}
+
+.footer-4-block{
+  display: inline;
+  align: center;
+}
+
+.footer-background {
+  background-image: url("../images/content/footer-background.png");
+  background-repeat: repeat-x;
+  height: 25px;
+}
+
+
+
+.*{
   font-family: Myriad Pro;
 }
